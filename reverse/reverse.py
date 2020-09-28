@@ -58,3 +58,24 @@ class LinkedList:
             prev = current
             #cycle current to next element until current is empty and breaks the loop
             current = next_element
+
+
+#testing
+# thisList = LinkedList()
+
+# thisList.add_to_head(6)
+# thisList.add_to_head(5)
+# thisList.add_to_head(3)
+# thisList.add_to_head(2)
+
+# print(thisList.head.value)
+# print(thisList.head.get_next().value)
+# print(thisList.head.get_next().get_next().value)
+# print(thisList.head.get_next().get_next().get_next().value)
+
+# thisList.reverse_list(thisList.head, None)
+
+# print(thisList.head.value)
+# print(thisList.head.get_next().value)
+# print(thisList.head.get_next().get_next().value)
+# print(thisList.head.get_next().get_next().get_next().value)
